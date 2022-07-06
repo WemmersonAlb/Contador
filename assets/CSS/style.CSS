@@ -1,8 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 body{
     background-color: rgb(14, 15, 15);
-    color: rgb(91, 92, 94);
+    color: rgb(221, 223, 226);
+    display: flex;
+    max-width: 992px;
+    width: 100%;
+    margin:auto;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+}
+.item{
+    margin-top: 10px;
+}
+button{
+    padding: 5px;
 }
